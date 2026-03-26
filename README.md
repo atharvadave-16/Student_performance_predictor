@@ -1,40 +1,40 @@
 # Student_performance_predictor
 
-This is a simple Python-based tool I built for my **Fundamentals of AI and ML** course. It uses **Linear Regression** to predict a student's final grade based on their attendance, study hours, and previous marks.
+It is a basic Python application that I created during my course in Fundamentals of AI and ML. It involves the application of the Linear Regression in predicting the final grade of a student using their attendance, study hours and past marks.
 
 ## 🚀 Features
 
-- **Grade Prediction**: Uses `scikit-learn`'s Linear Regression model (CO4).
-- **Risk Assessment**: Simple logic to categorize students into High, Medium, or Low risk based on the predicted score (CO3).
-- **Interactive Input**: Takes real-time inputs from the user via the terminal.
+- **Grade Prediction**: Linear Regression model (CO4) of scikit-learn.
+- **Risk Assessment**: Basic logic to classify the students into High, Medium and Low risk according to the estimated score (CO3).
+- **Interactive Input: Accepts real time inputs of the user at the terminal.
 
 ## 🛠️ Requirements
 
-You'll need Python installed along with these libraries:
+You will require Python and the following libraries:
 - `pandas`
 - `scikit-learn`
 - `numpy`
 
 You can install them using:
 ```bash
-pip install pandas scikit-learn numpy
+pip install pandas scikit-learn numpy.
 ```
 
 ## 📝 How to Run
 
-1. Open your terminal or command prompt.
-2. Navigate to the project folder.
+1. Open the terminal or command prompt.
+2. Go to the project folder.
 3. Run the script:
    ```bash
    python student_predictor.py
    ```
-4. Enter the requested data (Attendance, Study Hours, Prev Grade) when prompted.
+4. Provide the information (Attendance, Study Hours, Prev Grade) when required.
 
 ## 💡 How it Works 
 
--  The script acts as a simple agent that takes inputs (percepts) and provides a prediction (action).
--  The risk assessment logic is a basic form of decision-making under uncertainty.
--  The core of the project is the Linear Regression model, which is a supervised learning algorithm.
+- The script is a mere agent that processes inputs (percepts) and gives a forecast (action).
+-  The risk assessment logic is a simplistic decision-making in the face of uncertainty.
+-  Linear Regression model is a supervised learning algorithm, which is the core of the project.
 
 ---
 **Atharva**  
