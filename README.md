@@ -30,11 +30,11 @@ pip install pandas scikit-learn numpy
    ```
 4. Enter the requested data (Attendance, Study Hours, Prev Grade) when prompted.
 
-## 💡 How it Works (Syllabus Mapping)
+## 💡 How it Works 
 
-- **CO1 (Intelligent Agents)**: The script acts as a simple agent that takes inputs (percepts) and provides a prediction (action).
-- **CO3 (Probability & Stats)**: The risk assessment logic is a basic form of decision-making under uncertainty.
-- **CO4 (Machine Learning)**: The core of the project is the Linear Regression model, which is a supervised learning algorithm.
+-  The script acts as a simple agent that takes inputs (percepts) and provides a prediction (action).
+-  The risk assessment logic is a basic form of decision-making under uncertainty.
+-  The core of the project is the Linear Regression model, which is a supervised learning algorithm.
 
 ---
 **Atharva**  
