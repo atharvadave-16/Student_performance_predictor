@@ -6,7 +6,7 @@ It is a basic Python application that I created during my course in Fundamentals
 
 - **Grade Prediction**: Linear Regression model (CO4) of scikit-learn.
 - **Risk Assessment**: Basic logic to classify the students into High, Medium and Low risk according to the estimated score (CO3).
-- **Interactive Input: Accepts real time inputs of the user at the terminal.
+- **Interactive Input**: Accepts real time inputs of the user at the terminal.
 
 ## 🛠️ Requirements
 
