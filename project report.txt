@@ -1,0 +1,59 @@
+Project Report: Student Performance Predictor
+Student Name: Atharva Dave
+Registration No: 25BAI10301
+Subject: Introduction to AI and ML.
+University: VIT Bhopal university.
+Introduction
+In developing my AI/ML course project, I would choose to create a useful tool by which
+students would be made aware of how their habits can affect their academic
+achievements. To demonstrate this, I developed a Python-based Student Performance
+Predictor that operates a machine learning-based system to predict the final grade of a
+student using three major factors, attendance, study hours, and past performance.
+Problem Statement
+To most students, it is hard to estimate the extent to which their daily routines (attending
+classes or spending additional hours studying) are adding to their overall outcomes. The
+project is to offer an easy, data-based method of predicting results and defining the
+students at risk of poor performance, who are at the Higher Risk.
+Syllabus Mapping Methodology.
+This script has incorporated a few of the fundamental ideas of our AI/ML curriculum
+(CO1-CO4):
+Smart Agents (CO1): The script is a basic Rational Agent. It interprets the data of the
+student (percepts) and makes a prognosis (action) which helps the student to better
+judge his/her studies.
+Probability & Statistical Decision Theory (CO3): I used a risk assessment logic.
+Depending on the projected grade, the student is classified under the high, medium or
+low-risk categories. This is a simple use of decision theory in the face of uncertainty.
+Machine Learning Basics (CO4): The basic part of the application is a Linear
+Regression model. I trained the model using scikit-learn, in which a sample dataset was
+used wherein study hours and attendance are related to the final grade.
+Implementation Details
+The project is based on Python with the following libraries:
+Pandas: To organize the student data.
+NumPy:Used in the prediction of numerical arrays.
+Scikit-Learn: To compute the Linear Regression algorithm.
+The workflow is a simple script:
+It prepares a training set.
+It is a Linear Regression model.
+It asks the user to give his particular information (Attendance, Study Hours, Prev
+Grade).
+It gives the estimated final grade and the risk level.
+Challenges Faced
+Data Representation: It was significant to select the appropriate features that can have
+an effect on the grade. I chose the attendance and study hours because they are the
+most direct measures.
+Library Set up: Making sure that all requirements such as scikit-learn were properly
+installed and imported.
+Simplification of Logic: I was also interested in making the code clean and readable
+since it would be understandable to anyone to make the ML logic behind it.
+Learning Outcomes
+This project made me realize the ways in which theory such as the Linear Regression
+and the Rational Agents can be implemented in a real life script. It provided me with
+practical exposure to the data science ecosystem using Python as well as how to
+design a machine learning project.
+Conclusion
+As the Student Performance Predictor shows, even the simplest ML model can be of
+great help. With the help of the Linear Regression, we will be able to make a transition
+between "guessing" and predicting academic results, which is one of the key steps in
+the sphere of Artificial Intelligence.
+Atharva
+March 26, 2026
